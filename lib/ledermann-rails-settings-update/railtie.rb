@@ -5,7 +5,7 @@ module LedermannRailsSettingsUpdate
 
         initializer 'ledermann-rails-settings-update.action_controller' do
             ActiveSupport.on_load :action_controller do
-                include LedermannRailsSettingsUpdate
+                include LedermannRailsSettingsUpdate::UpdateSettings
             end
         end
 
