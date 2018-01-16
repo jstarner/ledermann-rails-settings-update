@@ -126,7 +126,7 @@ https://github.com/jonhue/ledermann-rails-settings-update/graphs/contributors
 
 ### Semantic Versioning
 
-Ahoy Views follows Semantic Versioning 2.0 as defined at http://semver.org.
+Ledermann Rails Settings Update follows Semantic Versioning 2.0 as defined at http://semver.org.
 
 ## License
 
