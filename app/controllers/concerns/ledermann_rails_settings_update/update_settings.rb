@@ -15,7 +15,9 @@ module LedermannRailsSettingsUpdate
                         settings[key][k] = false
                     end
                 end
-                instance.settings(key.to_sym).update_attributes value
+                unless instance.settings(key.to_sym).update_attributes value
+                    return false
+                end
             end
         end
 
